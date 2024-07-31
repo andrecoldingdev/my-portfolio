@@ -14,7 +14,7 @@ const About: React.FC = () => {
               <p className="text-gray-200">
                 Hello, I am Andre and I have been working as a software developer for 6+ years while working or managing several websites and AI products.
                 My goal is to start an amazing career where I can contribute to the best of my skills and efforts for the growth of the organization and the satisfaction of clients.
-                I work efficiently, ensuring my code is clean, W3C valid, semantic, and easy to maintain. Let's collaborate and create something amazing together!
+                I work efficiently, ensuring my code is clean, W3C valid, semantic, and easy to maintain. Let&apos;s collaborate and create something amazing together!
               </p>
               <h3 className="text-xl font-semibold text-white">Languages & Frameworks</h3>
               <div className="flex items-start flex-col">
