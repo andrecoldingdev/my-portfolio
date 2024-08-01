@@ -40,11 +40,12 @@ const About: React.FC = () => {
                   <li>✔ Libraries: Transformers, Hugging Face</li>
                   <li>✔ Tools: Auto-GPT, OpenAI API</li>
                 </ul>
-                {/* <button className="mt-3 bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
-                  <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
-                    Resume
+                <button className="mt-3 bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
+                  <Link href='#' download={true}>
+                    Download Resume
                   </Link>
-                </button> */}
+                </button>
+
               </div>
             </div>
           </div>
