@@ -42,7 +42,7 @@ const About: React.FC = () => {
                 </ul>
                 <button className="mt-3 bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
                   <Link href='#' download={true}>
-                    Download Resume
+                    Resume
                   </Link>
                 </button>
 

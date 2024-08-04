@@ -24,12 +24,13 @@ const Footer: React.FC = () => {
               </li>
             </ul>
             <div className="flex space-x-6">
-              <Link href="https://github.com/NoahGdev" target='_blank'>
+              <Link href="https://github.com/andrecoldingdev" target='_blank'>
                 <FaGithub size={36}/>
               </Link>
               {/* <Link href="https://www.linkedin.com/in/noah-gomes" target='_blank'>
                 <FaLinkedin size={36}/>
               </Link> */}
+              
               <Link href="https://discord.gg/andrecolding333" target='_blank'>
                 <FaDiscord size={36}/>
               </Link>

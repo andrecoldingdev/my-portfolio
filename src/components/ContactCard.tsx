@@ -11,11 +11,11 @@ const ContactCard: React.FC = () => {
                     <div>
                         <h2 className="text-2xl font-bold mb-2">Andre Colding</h2>
                         <p className="text-sm mb-4">Full-stack Software Engineer</p>
-                        {/* <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
+                        <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
                         <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
                             Resume
                         </Link>
-                    </button> */}
+                    </button>
                     </div>
 
                     <div className="flex space-x-4">

@@ -21,11 +21,11 @@ const Hero: React.FC = () => {
           Full-stack developer specializing in Node.js, React.js, Next.js, <br/>AWS, and AI integration, delivering scalable and intelligent solutions.</p>
         <div className="flex justify-center space-x-4">
           <ButtonLink className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-md hover:bg-gray-100" buttonText='Previous Work' elementId='previouswork' />
-          {/* <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-2 rounded-md hover:bg-white hover:text-blue-600">
+          <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-2 rounded-md hover:bg-white hover:text-blue-600">
             <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
               Resume
             </Link>
-          </button> */}
+          </button>
         </div>
       </div>
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
