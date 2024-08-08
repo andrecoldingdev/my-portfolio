@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="https://github.com/AndreColding" target='_blank' className="hidden md:flex">
+          <Link href="https://github.com/andrecoldingdev" target='_blank' className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
           <Link href="https://discord.gg/andrecolding333" target='_blank' className="hidden md:flex">
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Contact' elementId='contact'/>
         </div>
         <div className="flex items-center mt-20 mr-4">
-          <Link href="https://github.com/AndreColding" target='_blank'>
+          <Link href="https://github.com/andrecoldingdev" target='_blank'>
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
           <Link href="https://discord.gg/andrecolding333" target='_blank' className="ml-4">

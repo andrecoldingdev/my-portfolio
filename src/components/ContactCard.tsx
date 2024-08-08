@@ -19,7 +19,7 @@ const ContactCard: React.FC = () => {
                     </div>
 
                     <div className="flex space-x-4">
-                        <a href="https://github.com/AndreColding" target="_blank" rel="noreferrer" className="hover:text-gray-200">
+                        <a href="https://github.com/andrecoldingdev" target="_blank" rel="noreferrer" className="hover:text-gray-200">
                             <FaGithub size={44} />
                         </a>
                         {/* <a href="https://www.linkedin.com/in/noah-gomes" target="_blank" rel="noreferrer" className="hover:text-gray-200">
