@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex space-x-6">
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Previous Work' elementId='previouswork'/>
-          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Contact' elementId='contact'/>
+          {/* <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Contact' elementId='contact'/> */}
         </div>
         <div className="flex space-x-4">
           <button
@@ -55,12 +55,12 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="https://github.com/andrecoldingdev" target='_blank' className="hidden md:flex">
+          {/* <Link href="https://github.com/andrecoldingdev" target='_blank' className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
           <Link href="https://discord.gg/andrecolding333" target='_blank' className="hidden md:flex">
             <FaDiscord size={36}/>
-          </Link>
+          </Link> */}
         </div>
       </nav>
       <div className={`md:hidden ${mobileMenuOpen ? 'flex' : 'hidden'} justify-between mt-4 mb-6 ml-5`}>

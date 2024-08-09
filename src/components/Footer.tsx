@@ -19,9 +19,9 @@ const Footer: React.FC = () => {
               <li>
                 <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Previous Work' elementId='previouswork'/>
               </li>
-              <li>
+              {/* <li>
                 <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Contact' elementId='contact'/>
-              </li>
+              </li> */}
             </ul>
             <div className="flex space-x-6">
               <Link href="https://github.com/andrecoldingdev" target='_blank'>

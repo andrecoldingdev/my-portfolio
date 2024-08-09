@@ -5,11 +5,11 @@ const About: React.FC = () => {
   return (
     <div className="relative flex items-center justify-center h-screen">
       <div className="text-white px-6 md:px-12">
-        <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Andre</h2>
+        <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Andre Colding</h2>
 
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
           <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
-            <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
+            <h2 className="text-2xl font-normal text-center text-white mb-6">About Me</h2>
             <div className="space-y-6">
               <p className="text-gray-200">
                 Hello, I am Andre and I have been working as a software developer for 6+ years while working or managing several websites and AI products.
@@ -40,11 +40,11 @@ const About: React.FC = () => {
                   <li>✔ Libraries: Transformers, Hugging Face</li>
                   <li>✔ Tools: Auto-GPT, OpenAI API</li>
                 </ul>
-                <button className="mt-3 bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
+                {/* <button className="mt-3 bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
                   <Link href='#' download={true}>
                     Resume
                   </Link>
-                </button>
+                </button> */}
 
               </div>
             </div>
