@@ -22,6 +22,20 @@ const experiences = [
     date: 'Apr 2022 - Current',
     description: 'A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.',
   },
+  {
+    id: 4,
+    role: 'Developer/Owner',
+    company: 'LiquidTools',
+    date: 'Apr 2022 - Current',
+    description: 'A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.',
+  },
+  {
+    id: 5,
+    role: 'Developer/Owner',
+    company: 'LiquidTools',
+    date: 'Apr 2022 - Current',
+    description: 'A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.',
+  },
 ];
 
 interface TimelineItemProps {

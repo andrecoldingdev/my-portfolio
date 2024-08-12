@@ -30,12 +30,14 @@ const Navbar: React.FC = () => {
   return (
     <header className={`fixed w-full bg-transparent z-50 mnhdr h-auto transition-all ${scrolling ? 'blur-background' : ''} ${mobileMenuOpen ? 'h-24 blur-background' : ''}`}>
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-semibold text-gray-800 text-white">
-          Andre
+     
+        <Link href="/" className="flex text-2xl font-semibold text-gray-800 text-white">
+        <img src="/me.png" className='flex w-20 rounded-full ' alt="" /> 
         </Link>
         <div className="hidden md:flex space-x-6">
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Home' elementId='hero'/>
-          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Previous Work' elementId='previouswork'/>
+          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Past Work' elementId='previouswork'/>
+          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Work Experience' elementId='verticaltimeline'/>
           {/* <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Contact' elementId='contact'/> */}
         </div>
         <div className="flex space-x-4">
